@@ -3,7 +3,7 @@ Dainfos laboratory materials
 
 # List
 1. source code of PGM
-2. source code of ExpandOnce and 
+2. source code of ExpandOnce
 3. source code of ExpandWhenStuck
 4. source code of contribution algorithm
 5. Random Graph generator for Erdos-Renyi model
