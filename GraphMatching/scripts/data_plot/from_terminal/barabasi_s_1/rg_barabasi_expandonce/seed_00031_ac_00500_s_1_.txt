@@ -1,0 +1,50 @@
+Start read graph: /home/ildar/projects/GraphMatching/data/rg_barabasi_albert.txt
+n = 1000000
+Graph created
+N = 1000000
+E = 2.99999e+06
+p = 5.99999e-06
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (OK)
+pt = 1
+ps = 1
+r = 2
+a_c = 13888.9: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+START algorithm time: Mon Nov 30 11:59:45 2015
+Noisy seeds are generated:
+	before = 31; with generated = 500
+Start percolation matching
+M <- A_0 and Z <- A_0
+while M \ Z != None do
+[9,9] (87,298)
+[9,9] (174,597)
+[9,9] (261,896)
+[9,9] (349,49)
+[9,9] (436,348)
+[9,9] (523,647)
+[9,9] (611,128)
+[9,9] (698,514)
+[9,9] (785,901)
+[9,9] (873,141)
+[9,9] (960,601)
+[9,9] (1047,1075)
+[9,9] (1135,403)
+END algorithm time: Mon Nov 30 11:59:50 2015
+expandOnce: 
+----------RESULT----------
+expandOnce results for N = 1000000; s = 1; nb_seed = 31
+	common nodes count G1 and G2 = 1000000
+	matched = 71
+	correct matches = 42	 wrong matches = 29
+	recall = 4.2e-05
+	precision = 0.591549
+	F1-score = 8.3994e-05

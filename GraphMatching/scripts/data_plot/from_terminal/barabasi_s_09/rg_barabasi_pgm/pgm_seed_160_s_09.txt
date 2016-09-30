@@ -1,0 +1,499 @@
+Graph created
+b_c(g, r) = 1.50367
+N = 1000000
+E = 2999991
+p = 0.00100679
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 0.9
+r = 2
+a_c = 0.751837: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+seed
+0
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+Done with the seeds!
+160
+161
+correct: 2
+wrong: 0
+162
+163
+correct: 3
+wrong: 1
+164
+165
+165
+165
+165
+165
+165
+165
+165
+165
+165
+165
+correct: 3
+wrong: 3
+166
+166
+166
+166
+166
+166
+166
+166
+166
+166
+166
+167
+correct: 3
+wrong: 5
+168
+168
+168
+168
+168
+168
+168
+168
+168
+168
+168
+168
+168
+168
+169
+correct: 4
+wrong: 6
+170
+170
+170
+170
+170
+170
+171
+171
+171
+171
+171
+171
+171
+171
+correct: 5
+wrong: 7
+172
+172
+172
+172
+172
+172
+172
+173
+correct: 5
+wrong: 9
+174
+174
+174
+174
+174
+174
+174
+174
+174
+174
+174
+174
+174
+175
+correct: 5
+wrong: 11
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+176
+177
+177
+177
+177
+177
+177
+177
+177
+177
+177
+177
+177
+177
+177
+correct: 5
+wrong: 13
+178
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+correct: 5
+wrong: 15
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+181
+correct: 5
+wrong: 17
+182
+182
+182
+182
+182
+182
+183
+183
+183
+183
+correct: 6
+wrong: 18
+184
+185
+185
+185
+185
+185
+185
+185
+185
+185
+185
+correct: 6
+wrong: 20
+186
+186
+186
+186
+186
+186
+186
+186
+186
+186
+186
+187
+correct: 6
+wrong: 22
+188
+188
+188
+188
+189
+correct: 6
+wrong: 24
+190
+191
+191
+191
+correct: 6
+wrong: 26
+192
+192
+192
+193
+correct: 6
+wrong: 28
+194
+194
+194
+194
+194
+195
+195
+195
+195
+195
+195
+195
+correct: 6
+wrong: 30
+196
+197
+197
+197
+correct: 6
+wrong: 32
+198
+198
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+correct: 6
+wrong: 34
+200
+200
+200
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+201
+correct: 6
+wrong: 36
+202
+202
+202
+202
+202
+202
+202
+202
+202
+202
+202
+202
+----------RESULT----------
+PGM results for N = 1000000; s = 0.9; nb_seed = 160
+	common nodes count G1 and G2 = 1000000
+	matched = 202
+	correct matches = 166	 wrong matches = 36
+	precision = 0.000166
+	recall = 0.000166
+	F1-score = 0.000166

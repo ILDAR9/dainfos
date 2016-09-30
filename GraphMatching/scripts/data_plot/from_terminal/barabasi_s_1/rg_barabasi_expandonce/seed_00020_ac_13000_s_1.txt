@@ -1,0 +1,67 @@
+Start read graph
+n = 1000000
+Graph created
+N = 1000000
+E = 2.99999e+06
+p = 5.99999e-06
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (OK)
+pt = 1
+ps = 1
+r = 2
+a_c = 13888.9: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+Noisy seeds are generated:
+	before = 20; with generated = 13000
+Start percolation matching
+M <- A_0 and Z <- A_0
+while M \ Z != None do
+[179,179] (321,112)
+[752,49] (134,79)
+[2,2479] (504,11)
+[25,159] (172,197)
+[25,159] (456,87)
+[10,64] (8,343)
+[10,64] (144,641)
+[10,64] (281,474)
+[10,64] (417,536)
+[10,64] (555,404)
+[10,64] (693,400)
+[7839,45] (16,260)
+[98,111] (91,278)
+[98,111] (390,237)
+[144,5] (44,1015)
+[144,5] (98,1039)
+[144,5] (150,694)
+[144,5] (202,317)
+[144,5] (254,929)
+[144,5] (306,1540)
+[144,5] (358,1439)
+[12317,232] (53,222)
+[35,223] (308,229)
+[492,1361] (53,23)
+[3,3170] (935,33)
+[56,56] (10,303)
+[56,56] (167,467)
+[56,56] (325,279)
+[56,56] (484,462)
+[56,56] (647,387)
+ExpandOnce: 
+----------RESULT----------
+ExpandWhenStuck results for N = 1000000; s = 1; nb_seed = 20
+	common nodes count G1 and G2 = 1000000
+	matched = 2777
+	correct matches = 79	 wrong matches = 2698
+	recall = 7.9e-05
+	precision = 7.9e-05
+	F1-score = 7.9e-05
+	precision (correct+wrong) = 2699
+	F1-score (correct+wrong) = 0.000158

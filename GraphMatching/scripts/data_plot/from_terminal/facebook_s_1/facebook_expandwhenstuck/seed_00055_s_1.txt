@@ -1,0 +1,76 @@
+Start read graph: /home/ildar/projects/GraphMatching/data/facebook_combined.txt
+n = 4039
+Graph created
+N = 4039
+E = 88234
+p = 0.01082
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	0.000247586 << p <= 0.000979863 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 1.05741: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 4039
+Generate G2
+	generate subgraph
+	V_count = 4039
+same = 4039;  N * pt * pt = 4039
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 55
+	1324$1707
+	1185$1622
+	1407$1180
+	1777$1262
+	1245$1261
+	1322$1079
+	1527$1578
+	1790$1867
+	990$1844
+	1192$1681
+Seeds are expanded
+-----
+erase!
+Correct: 490 Wrong: 10
+size score_map: 2535244
+size score_map: 2066807
+size inactive_pairs: 250778
+size inactive_pairs: 106258
+[1000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[2000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[3000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Finish with inactive_pairs
+++++++
+Extended seed size: 1317
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 1317
+Seeds are expanded
+-----
+Finish with inactive_pairs
+++++++
+Extended seed size: 225
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 225
+Seeds are expanded
+-----
+Finish with inactive_pairs
+++++++
+Extended seed size: 0
+size inactive_pairs with value = 1: 0
+size: 0
+Finish with inactive_pairs
+expandWhenStuck: 
+----------RESULT----------
+expandWhenStuck results for N = 4039; s = 1; nb_seed = 55
+	common nodes count G1 and G2 = 4039
+	matched = 3965
+	correct matches = 3809	 wrong matches = 156
+	recall = 0.943055
+	precision = 0.960656
+	F1-score = 0.951774

@@ -1,0 +1,123 @@
+Graph created
+b_c(g, r) = 1.50367
+N = 1000000
+E = 2999991
+p = 0.00100679
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 0.9
+R-threshold = 2
+a_c = 0.751837: initial seed set.
++++
++++ 1000000
++++
++++ 1000000
+1000000 ++++ 1e+06
+0 noisy!
+++++++
+Extended seed size: 299
+0 noisy!
+-----
+++++++
+Extended seed size: 2000000
+0 noisy!
+20000 noisy!
+40000 noisy!
+60000 noisy!
+80000 noisy!
+100000 noisy!
+120000 noisy!
+140000 noisy!
+160000 noisy!
+180000 noisy!
+200000 noisy!
+220000 noisy!
+240000 noisy!
+260000 noisy!
+280000 noisy!
+300000 noisy!
+320000 noisy!
+340000 noisy!
+360000 noisy!
+380000 noisy!
+400000 noisy!
+420000 noisy!
+440000 noisy!
+460000 noisy!
+480000 noisy!
+500000 noisy!
+520000 noisy!
+540000 noisy!
+560000 noisy!
+580000 noisy!
+600000 noisy!
+620000 noisy!
+640000 noisy!
+660000 noisy!
+680000 noisy!
+700000 noisy!
+720000 noisy!
+740000 noisy!
+760000 noisy!
+780000 noisy!
+800000 noisy!
+820000 noisy!
+840000 noisy!
+860000 noisy!
+880000 noisy!
+900000 noisy!
+920000 noisy!
+940000 noisy!
+960000 noisy!
+980000 noisy!
+1000000 noisy!
+1020000 noisy!
+1040000 noisy!
+1060000 noisy!
+1080000 noisy!
+1100000 noisy!
+1120000 noisy!
+1140000 noisy!
+1160000 noisy!
+1180000 noisy!
+1200000 noisy!
+1220000 noisy!
+1240000 noisy!
+1260000 noisy!
+1280000 noisy!
+1300000 noisy!
+1320000 noisy!
+1340000 noisy!
+1360000 noisy!
+1380000 noisy!
+1400000 noisy!
+1420000 noisy!
+1440000 noisy!
+1460000 noisy!
+1480000 noisy!
+1500000 noisy!
+1520000 noisy!
+1540000 noisy!
+1560000 noisy!
+1580000 noisy!
+1600000 noisy!
+1620000 noisy!
+1640000 noisy!
+1660000 noisy!
+1680000 noisy!
+1700000 noisy!
+1720000 noisy!
+1740000 noisy!
+1760000 noisy!
+1780000 noisy!
+1800000 noisy!
+1820000 noisy!
+1840000 noisy!
+1860000 noisy!
+1880000 noisy!
+1900000 noisy!
+1920000 noisy!
+1940000 noisy!
+1960000 noisy!

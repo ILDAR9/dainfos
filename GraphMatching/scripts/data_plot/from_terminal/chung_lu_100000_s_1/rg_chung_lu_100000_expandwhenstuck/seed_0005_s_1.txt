@@ -1,0 +1,169 @@
+Start read graph
+n = 100000
+Graph created
+N = 100000
+E = 3.58586e+06
+p = 0.00071718
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-05 << p <= 6.73493e-05 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 9.72107: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 100000
+Generate G2
+	generate subgraph
+	V_count = 100000
+same = 100000;  N * pt * pt = 100000
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 5
+Seeds are expanded
+-----
+erase!
+Correct: 500 Wrong: 0
+size score_map: 30818748
+size score_map: 29349507
+size inactive_pairs: 426591
+size inactive_pairs: 330266
+[1000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[2000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[3000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[4000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+erase!
+Correct: 5000 Wrong: 0
+size score_map: 278403904
+size score_map: 218437415
+size inactive_pairs: 17968111
+size inactive_pairs: 12599134
+[5000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[6000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[7000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[8000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[9000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 10000 Wrong: 0
+[10000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+	in progress...
+[11000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[12000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[13000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[14000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[15000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[16000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[17000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[18000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[19000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 20000 Wrong: 0
+[20000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[21000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[22000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[23000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[24000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[25000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[26000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[27000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[28000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[29000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 30000 Wrong: 0
+[30000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[31000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[32000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[33000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[34000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[35000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[36000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[37000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[38000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[39000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 40000 Wrong: 0
+[40000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[41000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[42000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[43000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[44000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[45000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[46000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[47000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[48000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[49000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+erase!
+Correct: 50000 Wrong: 0
+size score_map: 446610611
+size score_map: 14413310
+size inactive_pairs: 39005186
+size inactive_pairs: 115980
+[50000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[51000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[52000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[53000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[54000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[55000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[56000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[57000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[58000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[59000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 60000 Wrong: 0
+[60000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[61000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[62000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[63000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[64000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[65000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[66000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[67000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[68000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[69000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 70000 Wrong: 0
+[70000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[71000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[72000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[73000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[74000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[75000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[76000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[77000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[78000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[79000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 80000 Wrong: 0
+Correct: 80000 Wrong: 0
+[80000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[81000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[82000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[83000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[84000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[85000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[86000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[87000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[88000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[89000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 90000 Wrong: 0
+[90000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[91000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[92000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[93000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[94000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[95000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[96000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[97000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[98000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[99000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+Correct: 100000 Wrong: 0
+Finish with inactive_pairs
+++++++
+Extended seed size: 0
+size inactive_pairs with value = 1: 0
+size: 0
+Finish with inactive_pairs
+expandWhenStuck: 
+----------RESULT----------
+ExpandWhenStuck results for N = 100000; s = 1; nb_seed = 5
+	common nodes count G1 and G2 = 100000
+	matched = 100000
+	correct matches = 100000	 wrong matches = 0
+	recall = 1
+	precision = 1
+	F1-score = 1

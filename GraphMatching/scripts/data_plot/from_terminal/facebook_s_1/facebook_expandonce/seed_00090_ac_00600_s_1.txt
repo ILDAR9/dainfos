@@ -1,0 +1,39 @@
+Start read graph: /home/ildar/projects/GraphMatching/data/facebook_combined.txt
+n = 4039
+Graph created
+N = 4039
+E = 88234
+p = 0.01082
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	0.000247586 << p <= 0.000979863 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 1.05741: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 4039
+Generate G2
+	generate subgraph
+	V_count = 4039
+same = 4039;  N * pt * pt = 4039
+Noisy seeds are generated:
+	before = 90; with generated = 600
+Start percolation matching
+M <- A_0 and Z <- A_0
+while M \ Z != None do
+[3437,3437] (294,358)
+[0,0] (46,212)
+Correct: 264 Wrong: 1736
+[1684,1684] (62,584)
+expandOnce: 
+----------RESULT----------
+expandOnce results for N = 4039; s = 1; nb_seed = 90
+	common nodes count G1 and G2 = 4039
+	matched = 3425
+	correct matches = 446	 wrong matches = 2979
+	recall = 0.110423
+	precision = 0.130219
+	F1-score = 0.119507

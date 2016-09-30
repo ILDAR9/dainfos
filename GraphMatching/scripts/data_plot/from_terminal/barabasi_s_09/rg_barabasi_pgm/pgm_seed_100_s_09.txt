@@ -1,0 +1,130 @@
+Graph created
+b_c(g, r) = 0.137196
+N = 1000000
+E = 1864197
+p = 0.00333307
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 0.9
+r = 2
+a_c = 0.0685981: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+seed
+0
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+seed
+Done with the seeds!
+----------RESULT----------
+PGM results for N = 1000000; s = 0.9; nb_seed = 100
+	common nodes count G1 and G2 = 1000000
+	matched = 100
+	correct matches = 100	 wrong matches = 0
+	precision = 0.0001
+	recall = 0.0001
+	F1-score = 0.0001

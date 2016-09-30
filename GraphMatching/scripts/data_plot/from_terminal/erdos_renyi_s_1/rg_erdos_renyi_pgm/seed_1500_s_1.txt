@@ -1,0 +1,233 @@
+Start read graph
+n = 1000000
+Graph created
+b_c(g, r) = 0.822234
+N = 1000000
+E = 9999896
+p = -0.00110281
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 0.411117: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+0
+Done with the seeds!
+correct: 9998
+wrong: 3
+correct: 19999
+wrong: 3
+correct: 30000
+wrong: 3
+correct: 40001
+wrong: 3
+correct: 50002
+wrong: 3
+correct: 60003
+wrong: 3
+correct: 70004
+wrong: 3
+correct: 80005
+wrong: 3
+correct: 90006
+wrong: 3
+correct: 100007
+wrong: 3
+correct: 110008
+wrong: 3
+correct: 120009
+wrong: 3
+correct: 130010
+wrong: 3
+correct: 140011
+wrong: 3
+correct: 150012
+wrong: 3
+correct: 160013
+wrong: 3
+correct: 170014
+wrong: 3
+correct: 180015
+wrong: 3
+correct: 190016
+wrong: 3
+correct: 200017
+wrong: 3
+correct: 210018
+wrong: 3
+correct: 220019
+wrong: 3
+correct: 230020
+wrong: 3
+correct: 240021
+wrong: 3
+correct: 250022
+wrong: 3
+correct: 260023
+wrong: 3
+correct: 270024
+wrong: 3
+correct: 280025
+wrong: 3
+correct: 290026
+wrong: 3
+correct: 300027
+wrong: 3
+correct: 310028
+wrong: 3
+correct: 320029
+wrong: 3
+correct: 330030
+wrong: 3
+correct: 340031
+wrong: 3
+correct: 350032
+wrong: 3
+correct: 360033
+wrong: 3
+correct: 370034
+wrong: 3
+correct: 380035
+wrong: 3
+correct: 390036
+wrong: 3
+correct: 400037
+wrong: 3
+correct: 410038
+wrong: 3
+correct: 420039
+wrong: 3
+correct: 430040
+wrong: 3
+correct: 440041
+wrong: 3
+correct: 450042
+wrong: 3
+correct: 460043
+wrong: 3
+correct: 470044
+wrong: 3
+correct: 480045
+wrong: 3
+correct: 490046
+wrong: 3
+correct: 500047
+wrong: 3
+correct: 510048
+wrong: 3
+correct: 520049
+wrong: 3
+correct: 530050
+wrong: 3
+correct: 540051
+wrong: 3
+correct: 550052
+wrong: 3
+correct: 560053
+wrong: 3
+correct: 570054
+wrong: 3
+correct: 580055
+wrong: 3
+correct: 590056
+wrong: 3
+correct: 600057
+wrong: 3
+correct: 610058
+wrong: 3
+correct: 620059
+wrong: 3
+correct: 630060
+wrong: 3
+correct: 640061
+wrong: 3
+correct: 650062
+wrong: 3
+correct: 660063
+wrong: 3
+correct: 670064
+wrong: 3
+correct: 680065
+wrong: 3
+correct: 690066
+wrong: 3
+correct: 700067
+wrong: 3
+correct: 710068
+wrong: 3
+correct: 720069
+wrong: 3
+correct: 730070
+wrong: 3
+correct: 740071
+wrong: 3
+correct: 750072
+wrong: 3
+correct: 760073
+wrong: 3
+correct: 770074
+wrong: 3
+correct: 780075
+wrong: 3
+correct: 790076
+wrong: 3
+correct: 800077
+wrong: 3
+correct: 810078
+wrong: 3
+correct: 820079
+wrong: 3
+correct: 830080
+wrong: 3
+correct: 840081
+wrong: 3
+correct: 850082
+wrong: 3
+correct: 860083
+wrong: 3
+correct: 870084
+wrong: 3
+correct: 880085
+wrong: 3
+correct: 890086
+wrong: 3
+correct: 900087
+wrong: 3
+correct: 910088
+wrong: 3
+correct: 920089
+wrong: 3
+correct: 930090
+wrong: 3
+correct: 940091
+wrong: 3
+correct: 950092
+wrong: 3
+correct: 960093
+wrong: 3
+correct: 970094
+wrong: 3
+correct: 980095
+wrong: 3
+correct: 990096
+wrong: 3
+ExpandWhenStuck: 
+----------RESULT----------
+ExpandWhenStuck results for N = 1000000; s = 1; nb_seed = 1500
+	common nodes count G1 and G2 = 1000000
+	matched = 1000000
+	correct matches = 999996	 wrong matches = 4
+	recall = 0.999996
+	precision = 0.999996
+	F1-score = 0.999996
+	precision (correct+wrong) = 5
+	F1-score (correct+wrong) = 1.66666

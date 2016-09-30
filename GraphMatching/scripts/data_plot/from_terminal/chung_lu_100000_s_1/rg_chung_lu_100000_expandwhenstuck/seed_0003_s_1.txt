@@ -1,0 +1,47 @@
+Start read graph: /home/ildar/projects/GraphMatching/data/rg_chung_lu_beta_991_n_100000.txt
+n = 100000
+Graph created
+N = 100000
+E = 3.58586e+06
+p = 0.00071718
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-05 << p <= 6.73493e-05 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 9.72107: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 100000
+Generate G2
+	generate subgraph
+	V_count = 100000
+same = 100000;  N * pt * pt = 100000
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 3
+Seeds are expanded
+-----
+erase!
+Correct: 500 Wrong: 0
+size score_map: 31340764
+size score_map: 29849110
+size inactive_pairs: 423292
+size inactive_pairs: 333522
+[1000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[2000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[3000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[4000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+erase!
+Correct: 5000 Wrong: 0
+size score_map: 278150406
+size score_map: 218265744
+size inactive_pairs: 17905918
+size inactive_pairs: 12544331
+[5000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[6000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[7000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[8000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|
+[9000] select the unmatched pair [i,j] with the minimum |d_1,i - d_2,j|

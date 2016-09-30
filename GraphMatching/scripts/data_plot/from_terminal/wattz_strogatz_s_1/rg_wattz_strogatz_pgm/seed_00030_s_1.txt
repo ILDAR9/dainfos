@@ -1,0 +1,32 @@
+Start read graph: /home/ildar/projects/GraphMatching/data/rg_wattz_strogatz.txt
+n = 1000000
+Graph created
+N = 1000000
+E = 2e+07
+p = 4e-05
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 1
+r = 2
+a_c = 312.499: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+0
+Done with the seeds!
+PGM: 
+----------RESULT----------
+ExpandWhenStuck results for N = 1000000; s = 1; nb_seed = 30
+	common nodes count G1 and G2 = 1000000
+	matched = 30
+	correct matches = 30	 wrong matches = 0
+	recall = 3e-05
+	precision = 1
+	F1-score = 5.99982e-05

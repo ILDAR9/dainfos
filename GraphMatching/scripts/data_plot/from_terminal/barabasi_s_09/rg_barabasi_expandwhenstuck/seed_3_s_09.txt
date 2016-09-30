@@ -1,0 +1,31 @@
+Graph created
+b_c(g, r) = 1.50367
+N = 1000000
+E = 2999991
+p = 0.00100679
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 0.9
+R-threshold = 2
+a_c = 0.751837: initial seed set.
++++
++++ 1000000
++++
++++ 1000000
+1000000 ++++ 1e+06
+0 noisy!
+++++++
+Extended seed size: 49
+0 noisy!
+++++++
+Extended seed size: 0
+size: 11997
+size: 0
+Finish
+ExpandWhenStuck: 
+	 correct matches = 3	 wrong = 0
+	 matched = 3
+	 precision = 1
+	 F1-score = 5.99998e-06

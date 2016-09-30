@@ -1,0 +1,1956 @@
+Start read graph
+n = 1000000
+Graph created
+N = 1000000
+E = 2.99999e+06
+p = 5.99999e-06
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (OK)
+pt = 1
+ps = 1
+r = 2
+a_c = 13888.9: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+Noisy seeds are generated:
+	before = 1000; with generated = 3000
+Start percolation matching
+M <- A_0 and Z <- A_0
+while M \ Z != None do
+[85,85] (196,354)
+[85,85] (394,291)
+[2,2] (3,488)
+[2,2] (87,149)
+[2,2] (170,183)
+[2,2] (251,476)
+[2,2] (332,770)
+[2,2] (415,966)
+[2,2] (499,180)
+[2,2] (581,201)
+[2,2] (665,693)
+[2,2] (749,101)
+[2,2] (835,189)
+[2,2] (919,466)
+[2,2] (1002,1238)
+[2,2] (1090,69)
+[2,2] (1172,1000)
+[38,38] (29,31)
+[38,38] (284,334)
+[19,19] (96,60)
+[19,19] (288,430)
+[19,19] (476,70)
+[297,297] (190,152)
+[234,234] (36,177)
+[234,234] (294,192)
+[249,249] (79,329)
+[20,20] (13,319)
+[20,20] (237,17)
+[20,20] (460,77)
+[26,26] (120,739)
+[26,26] (247,486)
+[26,26] (371,565)
+[26,26] (495,265)
+[26,26] (621,210)
+[26,26] (748,506)
+[185,185] (100,69)
+[185,185] (341,48)
+[242,242] (47,331)
+[242,242] (262,389)
+[242,242] (482,328)
+[8,8] (45,17)
+[8,8] (157,468)
+[8,8] (274,890)
+[8,8] (388,769)
+[8,8] (506,649)
+[8,8] (622,522)
+[8,8] (740,214)
+[8,8] (856,787)
+[1309,1309] (143,62)
+[362,362] (294,227)
+[41,41] (135,86)
+[41,41] (296,19)
+[41,41] (454,433)
+[41,41] (617,166)
+[18,18] (98,373)
+[18,18] (241,561)
+[18,18] (382,648)
+[18,18] (525,230)
+[18,18] (671,24)
+[94,94] (137,219)
+[11577,11577] (1,23)
+[15,15] (129,138)
+[15,15] (271,116)
+[15,15] (417,308)
+[15,15] (561,593)
+[15,15] (707,384)
+[29,29] (71,1174)
+[29,29] (154,681)
+[29,29] (237,1173)
+[29,29] (319,1135)
+[29,29] (401,1175)
+[29,29] (483,1111)
+[29,29] (570,773)
+[29,29] (653,353)
+[29,29] (736,744)
+[29,29] (820,281)
+[29,29] (906,354)
+[29,29] (991,1176)
+[29,29] (1075,43)
+[29,29] (1161,1002)
+[29,29] (1246,337)
+[105,105] (13,37)
+[118,118] (131,148)
+[53,1842] (62,41)
+[341,341] (197,141)
+[235,235] (115,294)
+[253,253] (172,42)
+[626,626] (190,169)
+[216,216] (214,94)
+[79,79] (239,373)
+[679,679] (124,33)
+[192,192] (137,68)
+[22,22] (20,759)
+[22,22] (100,1164)
+[22,22] (180,673)
+[22,22] (261,115)
+[22,22] (343,383)
+[22,22] (425,29)
+[22,22] (506,675)
+[22,22] (587,1253)
+[22,22] (670,703)
+[22,22] (750,939)
+[22,22] (830,1259)
+[22,22] (914,927)
+[22,22] (997,230)
+[22,22] (1077,739)
+[22,22] (1159,190)
+[22,22] (1243,513)
+[184,184] (40,122)
+[17,17] (230,184)
+[90,90] (167,287)
+[12,12] (8,133)
+[12,12] (85,366)
+[12,12] (163,958)
+[12,12] (241,48)
+[12,12] (317,801)
+[12,12] (394,708)
+[12,12] (472,108)
+[12,12] (553,755)
+[12,12] (632,735)
+[12,12] (712,1020)
+[12,12] (791,646)
+[12,12] (870,602)
+[12,12] (949,577)
+[12,12] (1030,766)
+[12,12] (1108,319)
+[12,12] (1186,236)
+[12,12] (1268,850)
+[12,12] (1349,16)
+[137,137] (261,31)
+[255,255] (270,148)
+[472,472] (98,124)
+[1084,1084] (127,69)
+[401,401] (29,72)
+[388,50] (99,24)
+[131,131] (1,453)
+[131,131] (221,74)
+[131,131] (445,296)
+[30,30] (10,58)
+[30,30] (94,37)
+[30,30] (180,1020)
+[30,30] (266,526)
+[30,30] (352,921)
+[30,30] (439,751)
+[30,30] (525,1006)
+[30,30] (612,67)
+[30,30] (700,589)
+[30,30] (789,187)
+[30,30] (876,1219)
+[30,30] (964,673)
+[30,30] (1051,878)
+[30,30] (1139,85)
+[30,30] (1228,44)
+[230,230] (1,85)
+[132,132] (92,98)
+[132,132] (360,273)
+[4531,6] (8,651)
+[4531,6] (55,1057)
+[364,364] (91,120)
+[21,21] (6,464)
+[21,21] (160,91)
+[21,21] (309,225)
+[21,21] (467,301)
+[21,21] (627,44)
+[305,305] (6,138)
+[305,305] (335,254)
+[457,457] (233,423)
+[78,78] (48,12)
+[78,78] (347,105)
+[266,266] (287,326)
+[552,552] (128,80)
+[16,982] (635,59)
+[218,218] (38,266)
+[179,179] (92,20)
+[42,42] (100,54)
+[4,199] (100,96)
+[4,199] (820,141)
+[4,199] (1542,105)
+[4,199] (2273,0)
+[203,203] (38,301)
+[5507,5507] (47,16)
+[299,299] (139,307)
+[210,210] (155,221)
+[650,650] (150,207)
+[717,34] (65,367)
+[223,223] (145,143)
+[36,36] (66,152)
+[36,36] (230,35)
+[36,36] (395,512)
+[36,36] (562,342)
+[1614,1614] (31,29)
+[150,150] (164,38)
+[150,150] (413,102)
+[47,47] (93,1003)
+[47,47] (195,106)
+[47,47] (296,22)
+[47,47] (401,1030)
+[47,47] (505,439)
+[47,47] (611,416)
+[47,47] (719,503)
+[47,47] (827,366)
+[47,47] (935,48)
+[47,47] (1041,482)
+[77,77] (70,300)
+[77,77] (306,392)
+[63,63] (3,351)
+[63,63] (247,324)
+[737,737] (98,72)
+[72,72] (78,239)
+[72,72] (349,27)
+[40,40] (213,135)
+[319,319] (139,31)
+[986,986] (111,163)
+[296,296] (76,20)
+[275,275] (189,141)
+[16591,16591] (6,19)
+[744,744] (91,66)
+[27,27] (171,97)
+[27,27] (371,252)
+[60,15874] (189,20)
+[120,120] (7,217)
+[120,120] (263,409)
+[14,14] (24,1400)
+[14,14] (87,1621)
+[14,14] (148,1785)
+[14,14] (211,1385)
+[14,14] (272,1668)
+[14,14] (336,739)
+[14,14] (398,102)
+[14,14] (461,1522)
+[14,14] (521,825)
+[14,14] (583,681)
+[14,14] (647,682)
+[14,14] (710,1037)
+[14,14] (771,1647)
+[14,14] (834,989)
+[14,14] (897,1197)
+[14,14] (958,1732)
+[14,14] (1025,20)
+[14,14] (1086,1174)
+[14,14] (1149,651)
+[14,14] (1215,915)
+[14,14] (1280,1049)
+[14,14] (1342,22)
+[14,14] (1407,194)
+[14,14] (1470,1121)
+[14,14] (1534,874)
+[14,14] (1598,1434)
+[14,14] (1665,55)
+[14,14] (1729,484)
+[14,14] (1795,243)
+[56,56] (25,495)
+[56,56] (197,40)
+[56,56] (370,41)
+[56,56] (545,339)
+[1005,1005] (82,32)
+[455,455] (50,383)
+[455,455] (325,50)
+[0,0] (25,441)
+[0,0] (188,564)
+[0,0] (356,226)
+[0,0] (527,131)
+[1795,1795] (21,26)
+[57,57] (271,314)
+[49,49] (60,736)
+[49,49] (203,352)
+[49,49] (348,520)
+[49,49] (503,157)
+[49,49] (654,30)
+[195,195] (54,163)
+[195,195] (309,168)
+[1826,1826] (38,9)
+[343,343] (290,64)
+[303,303] (101,1)
+[746,746] (4,104)
+[54,54] (114,70)
+[54,54] (296,86)
+[54,54] (491,221)
+[288,288] (111,276)
+[306,306] (244,28)
+[134,134] (119,234)
+[134,134] (357,312)
+[39,39] (60,349)
+[39,39] (251,537)
+[39,39] (452,157)
+[11,11] (11,483)
+[11,11] (159,314)
+[11,11] (315,26)
+[11,11] (469,170)
+[11,11] (631,649)
+[93,93] (86,236)
+[93,93] (326,424)
+[921,921] (80,74)
+[805,805] (189,170)
+[604,604] (215,99)
+[113,113] (88,35)
+[947,947] (73,20)
+[127,127] (185,69)
+[3170,3170] (62,97)
+[171,171] (45,103)
+[171,171] (348,354)
+[151,151] (311,122)
+[33,33] (164,54)
+[33,33] (338,193)
+[33,33] (522,41)
+[138,138] (162,167)
+[70,70] (139,3)
+[126,126] (86,13)
+[4064,4064] (25,30)
+[159,159] (13,73)
+[159,159] (333,252)
+[98,98] (158,43)
+[7619,7619] (21,49)
+[209,209] (219,96)
+[419,419] (98,273)
+[419,419] (332,24)
+[182,182] (70,106)
+[366,366] (52,25)
+[180,180] (190,67)
+[289,289] (137,227)
+[68,68] (75,605)
+[68,68] (228,569)
+[68,68] (386,568)
+[68,68] (558,146)
+[68,68] (725,589)
+[152,152] (32,183)
+[950,950] (130,199)
+[669,669] (129,212)
+[694,694] (69,186)
+[232,232] (209,191)
+[745,745] (60,66)
+[1332,1332] (25,10)
+[5835,5835] (18,9)
+[15370,15370] (40,2)
+[1349,1349] (88,103)
+[44039,44039] (1,13)
+[19224,1932] (9,40)
+[467,467] (39,93)
+[1350,1350] (109,39)
+[45058,501] (0,19)
+[30400,30400] (15,1)
+[291,291] (50,102)
+[6,463] (177,44)
+[6,463] (596,72)
+[6,463] (1016,201)
+[6,463] (1439,59)
+[6,463] (1877,27)
+[647,647] (15,21)
+[5,5] (27,1682)
+[5,5] (90,13)
+[5,5] (156,1282)
+[5,5] (217,1044)
+[5,5] (273,1484)
+[5,5] (337,1208)
+[5,5] (397,926)
+[5,5] (461,179)
+[5,5] (518,350)
+[5,5] (580,1293)
+[5,5] (640,1697)
+[5,5] (708,735)
+[5,5] (765,1707)
+[5,5] (826,1483)
+[5,5] (888,271)
+[5,5] (949,1186)
+[5,5] (1013,1797)
+[5,5] (1077,468)
+[5,5] (1140,1698)
+[5,5] (1203,1681)
+[5,5] (1264,400)
+[5,5] (1328,1404)
+[5,5] (1390,1701)
+[5,5] (1457,20)
+[5,5] (1520,1484)
+[5,5] (1581,1760)
+[5,5] (1645,216)
+[5,5] (1708,162)
+[5,5] (1773,506)
+[5,5] (1837,365)
+[5,5] (1904,1368)
+[5,5] (1965,1293)
+[534,534] (136,141)
+[328,328] (57,258)
+[317,317] (185,39)
+[3408,71] (73,72)
+[443,443] (27,111)
+[197,197] (112,187)
+[197,197] (383,222)
+[166,166] (112,230)
+[482,482] (184,106)
+[1735,1735] (65,48)
+[402,402] (207,24)
+[840,840] (107,72)
+[574,574] (91,175)
+[1956,1357] (2,19)
+[229,229] (201,146)
+[310,310] (164,65)
+[144,144] (263,335)
+[417,417] (145,102)
+[648,648] (139,72)
+[69,69] (166,28)
+[5344,5344] (58,22)
+[639,16] (67,796)
+[841,841] (229,159)
+[122,122] (160,293)
+[122,122] (414,176)
+[902,902] (97,35)
+[247,247] (78,100)
+[278,278] (182,176)
+[920,920] (19,161)
+[2198,2198] (61,52)
+[4533,4533] (31,128)
+[496,496] (187,207)
+[9350,9350] (41,6)
+[656,656] (13,39)
+[75,75] (63,68)
+[75,75] (169,18)
+[75,75] (266,1122)
+[75,75] (364,646)
+[75,75] (458,1111)
+[75,75] (557,694)
+[75,75] (665,310)
+[75,75] (766,680)
+[75,75] (870,553)
+[75,75] (980,687)
+[75,75] (1083,550)
+[75,75] (1196,926)
+[193,193] (155,34)
+[163,163] (61,78)
+[130,130] (207,222)
+[1474,1474] (110,112)
+[1583,1583] (96,76)
+[5960,5960] (7,0)
+[173,173] (229,193)
+[1691,1691] (21,99)
+[257,257] (201,64)
+[257,257] (481,360)
+[280,1790] (105,15)
+[1328,427741] (7,4)
+[89,89] (247,204)
+[577,577] (222,25)
+[5188,5188] (9,25)
+[540,540] (6,60)
+[678,678] (7,2)
+[1019,1019] (176,85)
+[722,722] (72,20)
+[18637,18637] (22,19)
+[32,32] (87,795)
+[32,32] (237,298)
+[32,32] (399,104)
+[32,32] (561,340)
+[32,32] (721,738)
+[174,174] (104,184)
+[3000,3000] (60,28)
+[601,601] (43,93)
+[1512,1512] (2,56)
+[846,846] (47,69)
+[1471,1471] (123,14)
+[51,51] (39,149)
+[1011,1011] (130,123)
+[702,702] (71,43)
+[73,73] (24,105)
+[7289,7289] (39,55)
+[34738,34738] (2,5)
+[26917,26917] (2,3)
+[440,440] (58,57)
+[323,323] (209,112)
+[35242,35242] (7,25)
+[1130,1130] (76,154)
+[1006,1006] (64,114)
+[238,238] (285,335)
+[43,43] (64,141)
+[3887,3887] (1,76)
+[69076,69076] (2,0)
+[281,281] (130,187)
+[2871,2871] (23,50)
+[3077,3077] (61,36)
+[8788,8788] (17,12)
+[970,970] (141,6)
+[7630,7630] (31,10)
+[45,45] (334,28)
+[603,603] (126,103)
+[188,188] (53,107)
+[258,258] (203,246)
+[593,593] (53,80)
+[46032,46032] (17,10)
+[1936,1936] (35,4)
+[80955,80955] (1,10)
+[404,404] (40,296)
+[1318,1318] (28,25)
+[566,566] (86,134)
+[3313,3313] (15,38)
+[1789,1789] (3,6)
+[614,614] (85,60)
+[2072,2072] (60,34)
+[32779,32779] (14,20)
+[14635,14635] (40,16)
+[20635,20635] (28,8)
+[797,797] (9,15)
+[14111,14111] (1,11)
+[725,725] (42,57)
+[2958,2958] (0,88)
+[102,102] (95,132)
+[1729,1729] (37,16)
+[108,108] (88,66)
+[2948,2948] (12,14)
+[9747,9747] (37,43)
+[1250,1250] (5,70)
+[3182,3182] (16,11)
+[4442,4442] (17,53)
+[106,106] (258,77)
+[2357,2357] (26,54)
+[1662,1662] (63,129)
+[796,796] (114,115)
+[10628,10628] (52,6)
+[1148,1148] (240,3)
+[519,519] (57,25)
+[10653,10653] (10,4)
+[3,649] (970,18)
+[2061,2061] (68,3)
+[740,740] (43,50)
+[671,671] (171,21)
+[2275,2275] (19,68)
+[1018,1018] (128,4)
+[1293,1293] (42,80)
+[19480,19480] (38,52)
+[4696,4696] (38,3)
+[7503,7503] (36,4)
+[6142,6142] (16,3)
+[147,147] (74,75)
+[3422,3422] (90,81)
+[3345,3345] (135,92)
+[2768,2768] (30,11)
+[241,241] (29,165)
+[112,112] (109,402)
+[112,112] (455,143)
+[1202,1202] (54,5)
+[1185,1185] (125,129)
+[5031,5031] (88,8)
+[726,726] (158,27)
+[3118,3118] (10,57)
+[5026,5026] (44,30)
+[863,863] (9,28)
+[1237,1237] (76,51)
+[2960,2960] (115,77)
+[207,207] (41,34)
+[30906,30906] (23,39)
+[6477,6477] (22,25)
+[78289,78289] (11,10)
+[8884,8884] (32,11)
+[1057,1057] (254,211)
+[936,936] (135,109)
+[10,4] (33,1449)
+[10,4] (87,2646)
+[10,4] (137,407)
+[10,4] (187,232)
+[10,4] (235,2359)
+[10,4] (286,2044)
+[10,4] (329,1577)
+[10,4] (378,1405)
+[10,4] (427,171)
+[10,4] (478,628)
+[10,4] (523,469)
+[10,4] (568,919)
+[10,4] (619,78)
+[10,4] (669,1749)
+[10,4] (712,2304)
+[3239,3239] (132,80)
+[33291,33291] (1,7)
+[3231,3231] (100,36)
+[2095,2095] (29,52)
+[2628,2628] (11,11)
+[12136,12136] (3,32)
+[58911,58911] (2,4)
+[1166,1166] (85,9)
+[5519,5519] (91,61)
+[11663,11663] (58,46)
+[1399,1399] (6,38)
+[6724,6724] (41,30)
+[1031,1031] (74,25)
+[10433,10433] (25,3)
+[11324,11324] (25,9)
+[7428,7428] (14,21)
+[59699,59699] (18,7)
+[2171,2171] (4,132)
+[3848,3848] (21,38)
+[956,956] (76,70)
+[3975,3975] (2,33)
+[6208,6208] (16,56)
+[2875,2875] (165,115)
+[3963,3963] (1,69)
+[33813,33813] (23,2)
+[66,66] (41,170)
+[3178,3178] (105,39)
+[15125,15125] (51,11)
+[278757,278757] (6,4)
+[546,546] (85,2)
+[3147,3147] (74,56)
+[331,331] (127,110)
+[1492,1492] (28,8)
+[3573,3573] (97,12)
+[346,346] (26,172)
+[12201,12201] (23,8)
+[9383,9383] (35,52)
+[260784,260784] (1,1)
+[3971,3971] (27,52)
+[32722,32722] (13,8)
+[5993,5993] (7,59)
+[21821,21821] (30,53)
+[212,212] (3,26)
+[1761,1761] (8,21)
+[1062,64] (140,342)
+[8033,8033] (26,13)
+[734,734] (66,19)
+[1684,1684] (46,15)
+[53941,53941] (5,4)
+[2342,2342] (9,1)
+[25,25] (61,149)
+[25,25] (342,527)
+[25,25] (687,344)
+[8214,8214] (35,20)
+[16030,16030] (15,32)
+[3464,3464] (88,18)
+[1106,1106] (60,20)
+[27056,27056] (3,6)
+[50042,50042] (19,15)
+[5133,5133] (16,14)
+[23870,23870] (3,7)
+[15316,15316] (2,9)
+[115,115] (274,168)
+[6157,6157] (3,23)
+[7836,7836] (20,30)
+[2913,2913] (0,33)
+[38852,38852] (2,3)
+[403,403] (35,32)
+[13154,13154] (22,22)
+[17478,17478] (26,23)
+[4695,4695] (21,28)
+[114787,114787] (3,1)
+[2045,2045] (47,50)
+[919,919] (184,66)
+[99714,99714] (7,10)
+[3220,3220] (38,169)
+[1460,1460] (99,174)
+[167419,167419] (0,1)
+[11809,11809] (1,4)
+[7741,7741] (13,26)
+[200,200] (47,252)
+[240,240] (164,95)
+[181,181] (102,136)
+[2746,2746] (28,57)
+[117613,117613] (2,5)
+[96702,96702] (10,13)
+[139,139] (15,32)
+[5812,5812] (2,0)
+[186,186] (263,777)
+[186,186] (701,286)
+[32678,32678] (12,17)
+[728,728] (13,205)
+[21300,21300] (6,5)
+[23342,23342] (13,13)
+[1372,1372] (8,11)
+[416,416] (42,38)
+[105740,105740] (14,5)
+[2992,2992] (7,42)
+[992,992] (99,113)
+[1076,1076] (76,27)
+[294623,294623] (2,3)
+[143,143] (106,403)
+[25487,25487] (10,18)
+[62230,62230] (7,9)
+[4988,4988] (14,0)
+[5781,5781] (38,28)
+[207651,207651] (1,4)
+[91569,91569] (7,9)
+[9486,9486] (34,44)
+[413624,413624] (2,3)
+[19460,19460] (1,6)
+[8651,8651] (45,33)
+[124667,124667] (3,0)
+[100752,100752] (6,22)
+[3783,3783] (33,3)
+[62432,62432] (1,1)
+[70065,70065] (3,3)
+[385,385] (113,127)
+[10228,10228] (16,21)
+[15680,15680] (28,20)
+[5084,5084] (9,22)
+[2153,2153] (6,16)
+[93038,93038] (9,4)
+[1221,1221] (3,30)
+[144936,144936] (1,3)
+[90792,90792] (9,18)
+[224867,224867] (3,6)
+Correct: 498686 Wrong: 1315
+[155327,155327] (5,2)
+[9,9] (294,91)
+[64943,64943] (5,11)
+[261789,261789] (2,3)
+[415210,415210] (5,8)
+[3719,3719] (7,11)
+[389615,389615] (2,1)
+[125832,125832] (13,7)
+[80036,80036] (14,18)
+[286991,286991] (5,9)
+[555,555] (70,50)
+[286648,286648] (0,4)
+[142794,142794] (2,4)
+[544566,544566] (4,1)
+[570161,570161] (3,2)
+Correct: 798659 Wrong: 1343
+Correct: 798660 Wrong: 1343
+Correct: 798660 Wrong: 1343
+Correct: 798661 Wrong: 1343
+Correct: 798663 Wrong: 1343
+Correct: 798663 Wrong: 1343
+Correct: 798663 Wrong: 1343
+Correct: 798664 Wrong: 1343
+Correct: 798665 Wrong: 1343
+Correct: 798666 Wrong: 1343
+Correct: 798667 Wrong: 1343
+Correct: 798668 Wrong: 1343
+Correct: 798669 Wrong: 1343
+Correct: 798669 Wrong: 1343
+Correct: 798669 Wrong: 1343
+Correct: 798670 Wrong: 1343
+Correct: 798670 Wrong: 1343
+Correct: 798671 Wrong: 1343
+Correct: 798671 Wrong: 1343
+Correct: 798672 Wrong: 1343
+Correct: 798673 Wrong: 1343
+Correct: 798673 Wrong: 1343
+Correct: 798675 Wrong: 1343
+Correct: 798675 Wrong: 1343
+Correct: 798675 Wrong: 1343
+Correct: 798675 Wrong: 1343
+Correct: 798681 Wrong: 1343
+Correct: 798681 Wrong: 1343
+Correct: 798682 Wrong: 1343
+Correct: 798682 Wrong: 1343
+Correct: 798683 Wrong: 1343
+Correct: 798683 Wrong: 1343
+Correct: 798684 Wrong: 1343
+Correct: 798685 Wrong: 1343
+Correct: 798685 Wrong: 1343
+Correct: 798685 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798686 Wrong: 1343
+Correct: 798687 Wrong: 1343
+Correct: 798687 Wrong: 1343
+Correct: 798688 Wrong: 1343
+Correct: 798690 Wrong: 1343
+Correct: 798690 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798691 Wrong: 1343
+Correct: 798692 Wrong: 1343
+Correct: 798692 Wrong: 1343
+Correct: 798692 Wrong: 1343
+Correct: 798693 Wrong: 1343
+Correct: 798693 Wrong: 1343
+Correct: 798694 Wrong: 1343
+Correct: 798698 Wrong: 1343
+Correct: 798699 Wrong: 1343
+Correct: 798701 Wrong: 1343
+Correct: 798701 Wrong: 1343
+Correct: 798702 Wrong: 1343
+Correct: 798703 Wrong: 1343
+Correct: 798703 Wrong: 1343
+Correct: 798707 Wrong: 1343
+Correct: 798708 Wrong: 1343
+Correct: 798710 Wrong: 1343
+Correct: 798710 Wrong: 1343
+Correct: 798713 Wrong: 1343
+Correct: 798713 Wrong: 1343
+Correct: 798713 Wrong: 1343
+Correct: 798716 Wrong: 1343
+Correct: 798717 Wrong: 1343
+Correct: 798720 Wrong: 1343
+Correct: 798720 Wrong: 1343
+Correct: 798721 Wrong: 1343
+Correct: 798721 Wrong: 1343
+Correct: 798724 Wrong: 1343
+Correct: 798724 Wrong: 1343
+Correct: 798724 Wrong: 1343
+Correct: 798724 Wrong: 1343
+Correct: 798726 Wrong: 1343
+Correct: 798726 Wrong: 1343
+Correct: 798726 Wrong: 1343
+Correct: 798733 Wrong: 1343
+Correct: 798735 Wrong: 1343
+Correct: 798735 Wrong: 1343
+Correct: 798735 Wrong: 1343
+Correct: 798736 Wrong: 1343
+Correct: 798736 Wrong: 1343
+Correct: 798736 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798737 Wrong: 1343
+Correct: 798738 Wrong: 1343
+Correct: 798741 Wrong: 1343
+Correct: 798741 Wrong: 1343
+Correct: 798742 Wrong: 1343
+Correct: 798743 Wrong: 1343
+Correct: 798743 Wrong: 1343
+Correct: 798747 Wrong: 1343
+Correct: 798747 Wrong: 1343
+Correct: 798748 Wrong: 1343
+Correct: 798749 Wrong: 1343
+Correct: 798749 Wrong: 1343
+Correct: 798750 Wrong: 1343
+Correct: 798750 Wrong: 1343
+Correct: 798752 Wrong: 1343
+Correct: 798755 Wrong: 1343
+Correct: 798757 Wrong: 1343
+Correct: 798757 Wrong: 1343
+Correct: 798758 Wrong: 1343
+Correct: 798759 Wrong: 1343
+Correct: 798760 Wrong: 1343
+Correct: 798761 Wrong: 1343
+Correct: 798763 Wrong: 1343
+Correct: 798765 Wrong: 1343
+Correct: 798767 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798771 Wrong: 1343
+Correct: 798773 Wrong: 1343
+Correct: 798773 Wrong: 1343
+Correct: 798774 Wrong: 1343
+Correct: 798775 Wrong: 1343
+Correct: 798776 Wrong: 1343
+Correct: 798776 Wrong: 1343
+Correct: 798778 Wrong: 1343
+Correct: 798778 Wrong: 1343
+Correct: 798778 Wrong: 1343
+Correct: 798778 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798779 Wrong: 1343
+Correct: 798781 Wrong: 1343
+Correct: 798781 Wrong: 1343
+Correct: 798781 Wrong: 1343
+Correct: 798781 Wrong: 1343
+Correct: 798783 Wrong: 1343
+Correct: 798783 Wrong: 1343
+Correct: 798785 Wrong: 1343
+Correct: 798785 Wrong: 1343
+Correct: 798786 Wrong: 1343
+Correct: 798786 Wrong: 1343
+Correct: 798786 Wrong: 1343
+Correct: 798786 Wrong: 1343
+Correct: 798788 Wrong: 1343
+Correct: 798788 Wrong: 1343
+Correct: 798789 Wrong: 1343
+Correct: 798789 Wrong: 1343
+Correct: 798789 Wrong: 1343
+Correct: 798795 Wrong: 1343
+Correct: 798795 Wrong: 1343
+Correct: 798797 Wrong: 1343
+Correct: 798797 Wrong: 1343
+Correct: 798797 Wrong: 1343
+Correct: 798797 Wrong: 1343
+Correct: 798799 Wrong: 1343
+Correct: 798799 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798800 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798804 Wrong: 1343
+Correct: 798805 Wrong: 1343
+Correct: 798805 Wrong: 1343
+Correct: 798805 Wrong: 1343
+Correct: 798806 Wrong: 1343
+Correct: 798806 Wrong: 1343
+Correct: 798806 Wrong: 1343
+Correct: 798807 Wrong: 1343
+Correct: 798807 Wrong: 1343
+Correct: 798809 Wrong: 1343
+Correct: 798809 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798810 Wrong: 1343
+Correct: 798811 Wrong: 1343
+Correct: 798815 Wrong: 1343
+Correct: 798816 Wrong: 1343
+Correct: 798816 Wrong: 1343
+Correct: 798817 Wrong: 1343
+Correct: 798817 Wrong: 1343
+Correct: 798817 Wrong: 1343
+Correct: 798817 Wrong: 1343
+Correct: 798817 Wrong: 1343
+Correct: 798818 Wrong: 1343
+Correct: 798821 Wrong: 1343
+Correct: 798823 Wrong: 1343
+Correct: 798823 Wrong: 1343
+Correct: 798823 Wrong: 1343
+Correct: 798824 Wrong: 1343
+Correct: 798824 Wrong: 1343
+Correct: 798828 Wrong: 1343
+Correct: 798828 Wrong: 1343
+Correct: 798830 Wrong: 1343
+Correct: 798830 Wrong: 1343
+Correct: 798831 Wrong: 1343
+Correct: 798832 Wrong: 1343
+Correct: 798833 Wrong: 1343
+Correct: 798833 Wrong: 1343
+Correct: 798835 Wrong: 1343
+Correct: 798835 Wrong: 1343
+Correct: 798835 Wrong: 1343
+Correct: 798836 Wrong: 1343
+Correct: 798838 Wrong: 1343
+Correct: 798838 Wrong: 1343
+Correct: 798838 Wrong: 1343
+Correct: 798842 Wrong: 1343
+Correct: 798843 Wrong: 1343
+Correct: 798845 Wrong: 1343
+Correct: 798845 Wrong: 1343
+Correct: 798845 Wrong: 1343
+Correct: 798845 Wrong: 1343
+Correct: 798846 Wrong: 1343
+Correct: 798847 Wrong: 1343
+Correct: 798848 Wrong: 1343
+Correct: 798850 Wrong: 1343
+Correct: 798850 Wrong: 1343
+Correct: 798851 Wrong: 1343
+Correct: 798851 Wrong: 1343
+Correct: 798851 Wrong: 1343
+Correct: 798851 Wrong: 1343
+Correct: 798851 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798852 Wrong: 1343
+Correct: 798854 Wrong: 1343
+Correct: 798854 Wrong: 1343
+Correct: 798858 Wrong: 1343
+Correct: 798859 Wrong: 1343
+Correct: 798859 Wrong: 1343
+Correct: 798860 Wrong: 1343
+Correct: 798860 Wrong: 1343
+Correct: 798860 Wrong: 1343
+Correct: 798860 Wrong: 1343
+Correct: 798863 Wrong: 1343
+Correct: 798864 Wrong: 1343
+Correct: 798864 Wrong: 1343
+Correct: 798865 Wrong: 1343
+Correct: 798866 Wrong: 1343
+Correct: 798866 Wrong: 1343
+Correct: 798866 Wrong: 1343
+Correct: 798866 Wrong: 1343
+Correct: 798866 Wrong: 1343
+Correct: 798867 Wrong: 1343
+Correct: 798867 Wrong: 1343
+Correct: 798867 Wrong: 1343
+Correct: 798872 Wrong: 1343
+Correct: 798872 Wrong: 1343
+Correct: 798872 Wrong: 1343
+Correct: 798873 Wrong: 1343
+Correct: 798873 Wrong: 1343
+Correct: 798874 Wrong: 1343
+Correct: 798878 Wrong: 1343
+Correct: 798878 Wrong: 1343
+Correct: 798878 Wrong: 1343
+Correct: 798878 Wrong: 1343
+Correct: 798878 Wrong: 1343
+Correct: 798879 Wrong: 1343
+Correct: 798879 Wrong: 1343
+Correct: 798882 Wrong: 1343
+Correct: 798883 Wrong: 1343
+Correct: 798883 Wrong: 1343
+Correct: 798883 Wrong: 1343
+Correct: 798884 Wrong: 1343
+Correct: 798885 Wrong: 1343
+Correct: 798886 Wrong: 1343
+Correct: 798887 Wrong: 1343
+Correct: 798887 Wrong: 1343
+Correct: 798887 Wrong: 1343
+Correct: 798888 Wrong: 1343
+Correct: 798888 Wrong: 1343
+Correct: 798889 Wrong: 1343
+Correct: 798890 Wrong: 1343
+Correct: 798890 Wrong: 1343
+Correct: 798890 Wrong: 1343
+Correct: 798890 Wrong: 1343
+Correct: 798890 Wrong: 1343
+Correct: 798893 Wrong: 1343
+Correct: 798893 Wrong: 1343
+Correct: 798894 Wrong: 1343
+Correct: 798894 Wrong: 1343
+Correct: 798895 Wrong: 1343
+Correct: 798896 Wrong: 1343
+Correct: 798897 Wrong: 1343
+Correct: 798897 Wrong: 1343
+Correct: 798898 Wrong: 1343
+Correct: 798900 Wrong: 1343
+Correct: 798903 Wrong: 1343
+Correct: 798903 Wrong: 1343
+Correct: 798903 Wrong: 1343
+Correct: 798905 Wrong: 1343
+Correct: 798909 Wrong: 1343
+Correct: 798910 Wrong: 1343
+Correct: 798911 Wrong: 1343
+Correct: 798911 Wrong: 1343
+Correct: 798911 Wrong: 1343
+Correct: 798911 Wrong: 1343
+Correct: 798912 Wrong: 1343
+Correct: 798912 Wrong: 1343
+Correct: 798912 Wrong: 1343
+Correct: 798912 Wrong: 1343
+Correct: 798915 Wrong: 1343
+Correct: 798916 Wrong: 1343
+Correct: 798918 Wrong: 1343
+Correct: 798919 Wrong: 1343
+Correct: 798921 Wrong: 1343
+Correct: 798921 Wrong: 1343
+Correct: 798923 Wrong: 1343
+Correct: 798925 Wrong: 1343
+Correct: 798925 Wrong: 1343
+Correct: 798928 Wrong: 1343
+Correct: 798928 Wrong: 1343
+Correct: 798930 Wrong: 1343
+Correct: 798930 Wrong: 1343
+Correct: 798931 Wrong: 1343
+Correct: 798932 Wrong: 1343
+Correct: 798932 Wrong: 1343
+Correct: 798932 Wrong: 1343
+Correct: 798934 Wrong: 1343
+Correct: 798934 Wrong: 1343
+Correct: 798936 Wrong: 1343
+Correct: 798937 Wrong: 1343
+Correct: 798939 Wrong: 1343
+Correct: 798940 Wrong: 1343
+Correct: 798940 Wrong: 1343
+Correct: 798941 Wrong: 1343
+Correct: 798945 Wrong: 1343
+Correct: 798945 Wrong: 1343
+Correct: 798945 Wrong: 1343
+Correct: 798947 Wrong: 1343
+Correct: 798949 Wrong: 1343
+Correct: 798950 Wrong: 1343
+Correct: 798951 Wrong: 1343
+Correct: 798953 Wrong: 1343
+Correct: 798953 Wrong: 1343
+Correct: 798954 Wrong: 1343
+Correct: 798954 Wrong: 1343
+Correct: 798954 Wrong: 1343
+Correct: 798955 Wrong: 1343
+Correct: 798956 Wrong: 1343
+Correct: 798956 Wrong: 1343
+Correct: 798956 Wrong: 1343
+Correct: 798956 Wrong: 1343
+Correct: 798957 Wrong: 1343
+Correct: 798961 Wrong: 1343
+Correct: 798963 Wrong: 1343
+Correct: 798964 Wrong: 1343
+Correct: 798965 Wrong: 1343
+Correct: 798965 Wrong: 1343
+Correct: 798966 Wrong: 1343
+Correct: 798966 Wrong: 1343
+Correct: 798967 Wrong: 1343
+Correct: 798968 Wrong: 1343
+Correct: 798968 Wrong: 1343
+Correct: 798969 Wrong: 1343
+Correct: 798973 Wrong: 1343
+Correct: 798974 Wrong: 1343
+Correct: 798975 Wrong: 1343
+Correct: 798976 Wrong: 1343
+Correct: 798976 Wrong: 1343
+Correct: 798976 Wrong: 1343
+Correct: 798976 Wrong: 1343
+Correct: 798982 Wrong: 1343
+Correct: 798983 Wrong: 1343
+Correct: 798983 Wrong: 1343
+Correct: 798984 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798985 Wrong: 1343
+Correct: 798990 Wrong: 1343
+Correct: 798992 Wrong: 1343
+Correct: 798995 Wrong: 1343
+Correct: 798996 Wrong: 1343
+Correct: 798996 Wrong: 1343
+Correct: 798999 Wrong: 1343
+Correct: 798999 Wrong: 1343
+Correct: 799000 Wrong: 1343
+Correct: 799002 Wrong: 1343
+Correct: 799002 Wrong: 1343
+Correct: 799003 Wrong: 1343
+Correct: 799003 Wrong: 1343
+Correct: 799005 Wrong: 1343
+Correct: 799005 Wrong: 1343
+Correct: 799005 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799006 Wrong: 1343
+Correct: 799007 Wrong: 1343
+Correct: 799008 Wrong: 1343
+Correct: 799008 Wrong: 1343
+Correct: 799010 Wrong: 1343
+Correct: 799011 Wrong: 1343
+Correct: 799012 Wrong: 1343
+Correct: 799012 Wrong: 1343
+Correct: 799012 Wrong: 1343
+Correct: 799012 Wrong: 1343
+Correct: 799013 Wrong: 1343
+Correct: 799018 Wrong: 1343
+Correct: 799019 Wrong: 1343
+Correct: 799019 Wrong: 1343
+Correct: 799024 Wrong: 1343
+Correct: 799024 Wrong: 1343
+Correct: 799025 Wrong: 1343
+Correct: 799026 Wrong: 1343
+Correct: 799026 Wrong: 1343
+Correct: 799026 Wrong: 1343
+Correct: 799027 Wrong: 1343
+Correct: 799027 Wrong: 1343
+Correct: 799028 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799031 Wrong: 1343
+Correct: 799032 Wrong: 1343
+Correct: 799032 Wrong: 1343
+Correct: 799033 Wrong: 1343
+Correct: 799035 Wrong: 1343
+Correct: 799035 Wrong: 1343
+Correct: 799036 Wrong: 1343
+Correct: 799036 Wrong: 1343
+Correct: 799037 Wrong: 1343
+Correct: 799037 Wrong: 1343
+Correct: 799038 Wrong: 1343
+Correct: 799040 Wrong: 1343
+Correct: 799041 Wrong: 1343
+Correct: 799042 Wrong: 1343
+Correct: 799043 Wrong: 1343
+Correct: 799043 Wrong: 1343
+Correct: 799044 Wrong: 1343
+Correct: 799045 Wrong: 1343
+Correct: 799048 Wrong: 1343
+Correct: 799049 Wrong: 1343
+Correct: 799049 Wrong: 1343
+Correct: 799049 Wrong: 1343
+Correct: 799049 Wrong: 1343
+Correct: 799049 Wrong: 1343
+Correct: 799051 Wrong: 1343
+Correct: 799051 Wrong: 1343
+Correct: 799052 Wrong: 1343
+Correct: 799055 Wrong: 1343
+Correct: 799056 Wrong: 1343
+Correct: 799056 Wrong: 1343
+Correct: 799058 Wrong: 1343
+Correct: 799058 Wrong: 1343
+Correct: 799058 Wrong: 1343
+Correct: 799058 Wrong: 1343
+Correct: 799061 Wrong: 1343
+Correct: 799061 Wrong: 1343
+Correct: 799061 Wrong: 1343
+Correct: 799062 Wrong: 1343
+Correct: 799062 Wrong: 1343
+Correct: 799064 Wrong: 1343
+Correct: 799064 Wrong: 1343
+Correct: 799064 Wrong: 1343
+Correct: 799065 Wrong: 1343
+Correct: 799065 Wrong: 1343
+Correct: 799065 Wrong: 1343
+Correct: 799068 Wrong: 1343
+Correct: 799069 Wrong: 1343
+Correct: 799069 Wrong: 1343
+Correct: 799070 Wrong: 1343
+Correct: 799073 Wrong: 1343
+Correct: 799073 Wrong: 1343
+Correct: 799074 Wrong: 1343
+Correct: 799074 Wrong: 1343
+Correct: 799075 Wrong: 1343
+Correct: 799078 Wrong: 1343
+Correct: 799078 Wrong: 1343
+Correct: 799078 Wrong: 1343
+Correct: 799078 Wrong: 1343
+Correct: 799080 Wrong: 1343
+Correct: 799080 Wrong: 1343
+Correct: 799080 Wrong: 1343
+Correct: 799080 Wrong: 1343
+Correct: 799080 Wrong: 1343
+Correct: 799082 Wrong: 1343
+Correct: 799083 Wrong: 1343
+Correct: 799084 Wrong: 1343
+Correct: 799086 Wrong: 1343
+Correct: 799086 Wrong: 1343
+Correct: 799088 Wrong: 1343
+Correct: 799090 Wrong: 1343
+Correct: 799091 Wrong: 1343
+Correct: 799091 Wrong: 1343
+Correct: 799092 Wrong: 1343
+Correct: 799092 Wrong: 1343
+Correct: 799092 Wrong: 1343
+Correct: 799092 Wrong: 1343
+Correct: 799094 Wrong: 1343
+Correct: 799094 Wrong: 1343
+Correct: 799103 Wrong: 1343
+Correct: 799103 Wrong: 1343
+Correct: 799103 Wrong: 1343
+Correct: 799105 Wrong: 1343
+Correct: 799106 Wrong: 1343
+Correct: 799107 Wrong: 1343
+Correct: 799107 Wrong: 1343
+Correct: 799109 Wrong: 1343
+Correct: 799109 Wrong: 1343
+Correct: 799109 Wrong: 1343
+Correct: 799112 Wrong: 1343
+Correct: 799112 Wrong: 1343
+Correct: 799113 Wrong: 1343
+Correct: 799115 Wrong: 1343
+Correct: 799116 Wrong: 1343
+Correct: 799117 Wrong: 1343
+Correct: 799117 Wrong: 1343
+Correct: 799117 Wrong: 1343
+Correct: 799118 Wrong: 1343
+Correct: 799118 Wrong: 1343
+Correct: 799118 Wrong: 1343
+Correct: 799120 Wrong: 1343
+Correct: 799122 Wrong: 1343
+Correct: 799122 Wrong: 1343
+Correct: 799123 Wrong: 1343
+Correct: 799123 Wrong: 1343
+Correct: 799123 Wrong: 1343
+Correct: 799123 Wrong: 1343
+Correct: 799124 Wrong: 1343
+Correct: 799124 Wrong: 1343
+Correct: 799126 Wrong: 1343
+Correct: 799126 Wrong: 1343
+Correct: 799126 Wrong: 1343
+Correct: 799126 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799127 Wrong: 1343
+Correct: 799128 Wrong: 1343
+Correct: 799129 Wrong: 1343
+Correct: 799131 Wrong: 1343
+Correct: 799132 Wrong: 1343
+Correct: 799132 Wrong: 1343
+Correct: 799135 Wrong: 1343
+Correct: 799136 Wrong: 1343
+Correct: 799138 Wrong: 1343
+Correct: 799138 Wrong: 1343
+Correct: 799140 Wrong: 1343
+Correct: 799140 Wrong: 1343
+Correct: 799144 Wrong: 1343
+Correct: 799145 Wrong: 1343
+Correct: 799146 Wrong: 1343
+Correct: 799146 Wrong: 1343
+Correct: 799146 Wrong: 1343
+Correct: 799146 Wrong: 1343
+Correct: 799147 Wrong: 1343
+Correct: 799148 Wrong: 1343
+Correct: 799148 Wrong: 1343
+Correct: 799149 Wrong: 1343
+Correct: 799149 Wrong: 1343
+Correct: 799151 Wrong: 1343
+Correct: 799158 Wrong: 1343
+Correct: 799158 Wrong: 1343
+Correct: 799159 Wrong: 1343
+Correct: 799159 Wrong: 1343
+Correct: 799160 Wrong: 1343
+Correct: 799162 Wrong: 1343
+Correct: 799162 Wrong: 1343
+Correct: 799162 Wrong: 1343
+Correct: 799164 Wrong: 1343
+Correct: 799164 Wrong: 1343
+Correct: 799166 Wrong: 1343
+Correct: 799167 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799168 Wrong: 1343
+Correct: 799171 Wrong: 1343
+Correct: 799173 Wrong: 1343
+Correct: 799174 Wrong: 1343
+Correct: 799174 Wrong: 1343
+Correct: 799178 Wrong: 1343
+Correct: 799178 Wrong: 1343
+Correct: 799178 Wrong: 1343
+Correct: 799180 Wrong: 1343
+Correct: 799180 Wrong: 1343
+Correct: 799180 Wrong: 1343
+Correct: 799182 Wrong: 1343
+Correct: 799183 Wrong: 1343
+Correct: 799184 Wrong: 1343
+Correct: 799185 Wrong: 1343
+Correct: 799185 Wrong: 1343
+Correct: 799186 Wrong: 1343
+Correct: 799192 Wrong: 1343
+Correct: 799192 Wrong: 1343
+Correct: 799192 Wrong: 1343
+Correct: 799194 Wrong: 1343
+Correct: 799194 Wrong: 1343
+Correct: 799195 Wrong: 1343
+Correct: 799198 Wrong: 1343
+Correct: 799198 Wrong: 1343
+Correct: 799200 Wrong: 1343
+Correct: 799200 Wrong: 1343
+Correct: 799200 Wrong: 1343
+Correct: 799200 Wrong: 1343
+Correct: 799200 Wrong: 1343
+Correct: 799203 Wrong: 1343
+Correct: 799203 Wrong: 1343
+Correct: 799203 Wrong: 1343
+Correct: 799203 Wrong: 1343
+Correct: 799203 Wrong: 1343
+Correct: 799204 Wrong: 1343
+Correct: 799204 Wrong: 1343
+Correct: 799205 Wrong: 1343
+Correct: 799205 Wrong: 1343
+Correct: 799205 Wrong: 1343
+Correct: 799206 Wrong: 1343
+Correct: 799208 Wrong: 1343
+Correct: 799209 Wrong: 1343
+Correct: 799209 Wrong: 1343
+Correct: 799209 Wrong: 1343
+Correct: 799214 Wrong: 1343
+Correct: 799214 Wrong: 1343
+Correct: 799215 Wrong: 1343
+Correct: 799215 Wrong: 1343
+Correct: 799215 Wrong: 1343
+Correct: 799216 Wrong: 1343
+Correct: 799219 Wrong: 1343
+Correct: 799219 Wrong: 1343
+Correct: 799219 Wrong: 1343
+Correct: 799220 Wrong: 1343
+Correct: 799223 Wrong: 1343
+Correct: 799223 Wrong: 1343
+Correct: 799227 Wrong: 1343
+Correct: 799227 Wrong: 1343
+Correct: 799228 Wrong: 1343
+Correct: 799228 Wrong: 1343
+Correct: 799233 Wrong: 1343
+Correct: 799233 Wrong: 1343
+Correct: 799234 Wrong: 1343
+Correct: 799234 Wrong: 1343
+Correct: 799234 Wrong: 1343
+Correct: 799237 Wrong: 1343
+Correct: 799238 Wrong: 1343
+Correct: 799238 Wrong: 1343
+Correct: 799239 Wrong: 1343
+Correct: 799242 Wrong: 1343
+Correct: 799242 Wrong: 1343
+Correct: 799243 Wrong: 1343
+Correct: 799243 Wrong: 1343
+Correct: 799244 Wrong: 1343
+Correct: 799244 Wrong: 1343
+Correct: 799244 Wrong: 1343
+Correct: 799244 Wrong: 1343
+Correct: 799245 Wrong: 1343
+Correct: 799246 Wrong: 1343
+Correct: 799247 Wrong: 1343
+Correct: 799247 Wrong: 1343
+Correct: 799248 Wrong: 1343
+Correct: 799248 Wrong: 1343
+Correct: 799248 Wrong: 1343
+Correct: 799248 Wrong: 1343
+Correct: 799252 Wrong: 1343
+Correct: 799252 Wrong: 1343
+Correct: 799252 Wrong: 1343
+Correct: 799253 Wrong: 1343
+Correct: 799253 Wrong: 1343
+Correct: 799253 Wrong: 1343
+Correct: 799253 Wrong: 1343
+Correct: 799253 Wrong: 1343
+Correct: 799254 Wrong: 1343
+Correct: 799254 Wrong: 1343
+Correct: 799255 Wrong: 1343
+Correct: 799255 Wrong: 1343
+Correct: 799255 Wrong: 1343
+Correct: 799258 Wrong: 1343
+Correct: 799258 Wrong: 1343
+Correct: 799258 Wrong: 1343
+Correct: 799258 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799260 Wrong: 1343
+Correct: 799261 Wrong: 1343
+Correct: 799262 Wrong: 1343
+Correct: 799262 Wrong: 1343
+Correct: 799262 Wrong: 1343
+Correct: 799262 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799264 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799265 Wrong: 1343
+Correct: 799268 Wrong: 1343
+Correct: 799270 Wrong: 1343
+Correct: 799270 Wrong: 1343
+Correct: 799270 Wrong: 1343
+Correct: 799270 Wrong: 1343
+Correct: 799270 Wrong: 1343
+Correct: 799271 Wrong: 1343
+Correct: 799271 Wrong: 1343
+Correct: 799271 Wrong: 1343
+Correct: 799271 Wrong: 1343
+Correct: 799276 Wrong: 1343
+Correct: 799276 Wrong: 1343
+Correct: 799276 Wrong: 1343
+Correct: 799277 Wrong: 1343
+Correct: 799277 Wrong: 1343
+Correct: 799277 Wrong: 1343
+Correct: 799279 Wrong: 1343
+Correct: 799279 Wrong: 1343
+Correct: 799279 Wrong: 1343
+Correct: 799281 Wrong: 1343
+Correct: 799282 Wrong: 1343
+Correct: 799284 Wrong: 1343
+Correct: 799289 Wrong: 1343
+Correct: 799289 Wrong: 1343
+Correct: 799289 Wrong: 1343
+Correct: 799300 Wrong: 1343
+Correct: 799301 Wrong: 1343
+Correct: 799301 Wrong: 1343
+Correct: 799303 Wrong: 1343
+Correct: 799304 Wrong: 1343
+Correct: 799306 Wrong: 1343
+Correct: 799306 Wrong: 1343
+Correct: 799308 Wrong: 1343
+Correct: 799308 Wrong: 1343
+Correct: 799308 Wrong: 1343
+Correct: 799310 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799313 Wrong: 1343
+Correct: 799315 Wrong: 1343
+Correct: 799315 Wrong: 1343
+Correct: 799315 Wrong: 1343
+Correct: 799315 Wrong: 1343
+Correct: 799315 Wrong: 1343
+Correct: 799316 Wrong: 1343
+Correct: 799316 Wrong: 1343
+Correct: 799316 Wrong: 1343
+Correct: 799316 Wrong: 1343
+Correct: 799318 Wrong: 1343
+Correct: 799320 Wrong: 1343
+Correct: 799320 Wrong: 1343
+Correct: 799322 Wrong: 1343
+Correct: 799323 Wrong: 1343
+Correct: 799324 Wrong: 1343
+Correct: 799324 Wrong: 1343
+Correct: 799324 Wrong: 1343
+Correct: 799325 Wrong: 1343
+Correct: 799325 Wrong: 1343
+Correct: 799325 Wrong: 1343
+Correct: 799325 Wrong: 1343
+Correct: 799327 Wrong: 1343
+Correct: 799331 Wrong: 1343
+Correct: 799332 Wrong: 1343
+Correct: 799332 Wrong: 1343
+Correct: 799332 Wrong: 1343
+Correct: 799332 Wrong: 1343
+Correct: 799333 Wrong: 1343
+Correct: 799336 Wrong: 1343
+Correct: 799337 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799338 Wrong: 1343
+Correct: 799340 Wrong: 1343
+Correct: 799341 Wrong: 1343
+Correct: 799341 Wrong: 1343
+Correct: 799342 Wrong: 1343
+Correct: 799344 Wrong: 1343
+Correct: 799344 Wrong: 1343
+Correct: 799344 Wrong: 1343
+Correct: 799344 Wrong: 1343
+Correct: 799344 Wrong: 1343
+Correct: 799345 Wrong: 1343
+Correct: 799345 Wrong: 1343
+Correct: 799345 Wrong: 1343
+Correct: 799345 Wrong: 1343
+Correct: 799345 Wrong: 1343
+Correct: 799347 Wrong: 1343
+Correct: 799347 Wrong: 1343
+Correct: 799349 Wrong: 1343
+Correct: 799350 Wrong: 1343
+Correct: 799350 Wrong: 1343
+Correct: 799350 Wrong: 1343
+Correct: 799351 Wrong: 1343
+Correct: 799351 Wrong: 1343
+Correct: 799351 Wrong: 1343
+Correct: 799352 Wrong: 1343
+Correct: 799353 Wrong: 1343
+Correct: 799353 Wrong: 1343
+Correct: 799353 Wrong: 1343
+Correct: 799359 Wrong: 1343
+Correct: 799359 Wrong: 1343
+Correct: 799361 Wrong: 1343
+Correct: 799361 Wrong: 1343
+Correct: 799361 Wrong: 1343
+Correct: 799361 Wrong: 1343
+Correct: 799362 Wrong: 1343
+Correct: 799362 Wrong: 1343
+Correct: 799363 Wrong: 1343
+Correct: 799363 Wrong: 1343
+Correct: 799364 Wrong: 1343
+Correct: 799365 Wrong: 1343
+Correct: 799366 Wrong: 1343
+Correct: 799367 Wrong: 1343
+Correct: 799367 Wrong: 1343
+Correct: 799368 Wrong: 1343
+Correct: 799368 Wrong: 1343
+Correct: 799368 Wrong: 1343
+Correct: 799369 Wrong: 1343
+Correct: 799369 Wrong: 1343
+Correct: 799369 Wrong: 1343
+Correct: 799369 Wrong: 1343
+Correct: 799369 Wrong: 1343
+Correct: 799370 Wrong: 1343
+Correct: 799370 Wrong: 1343
+Correct: 799371 Wrong: 1343
+Correct: 799371 Wrong: 1343
+Correct: 799371 Wrong: 1343
+Correct: 799372 Wrong: 1343
+Correct: 799374 Wrong: 1343
+Correct: 799374 Wrong: 1343
+Correct: 799375 Wrong: 1343
+Correct: 799378 Wrong: 1343
+Correct: 799378 Wrong: 1343
+Correct: 799379 Wrong: 1343
+Correct: 799380 Wrong: 1343
+Correct: 799380 Wrong: 1343
+Correct: 799380 Wrong: 1343
+Correct: 799382 Wrong: 1343
+Correct: 799383 Wrong: 1343
+Correct: 799383 Wrong: 1343
+Correct: 799383 Wrong: 1343
+Correct: 799384 Wrong: 1343
+Correct: 799388 Wrong: 1343
+Correct: 799389 Wrong: 1343
+Correct: 799390 Wrong: 1343
+Correct: 799392 Wrong: 1343
+Correct: 799392 Wrong: 1343
+Correct: 799393 Wrong: 1343
+Correct: 799395 Wrong: 1343
+Correct: 799395 Wrong: 1343
+Correct: 799395 Wrong: 1343
+Correct: 799395 Wrong: 1343
+Correct: 799403 Wrong: 1343
+Correct: 799404 Wrong: 1343
+Correct: 799404 Wrong: 1343
+Correct: 799405 Wrong: 1343
+Correct: 799406 Wrong: 1343
+Correct: 799406 Wrong: 1343
+Correct: 799407 Wrong: 1343
+Correct: 799408 Wrong: 1343
+Correct: 799410 Wrong: 1343
+Correct: 799413 Wrong: 1343
+Correct: 799413 Wrong: 1343
+Correct: 799414 Wrong: 1343
+Correct: 799414 Wrong: 1343
+Correct: 799414 Wrong: 1343
+Correct: 799416 Wrong: 1343
+Correct: 799417 Wrong: 1343
+Correct: 799418 Wrong: 1343
+Correct: 799420 Wrong: 1343
+Correct: 799422 Wrong: 1343
+Correct: 799423 Wrong: 1343
+Correct: 799424 Wrong: 1343
+Correct: 799424 Wrong: 1343
+Correct: 799424 Wrong: 1343
+Correct: 799425 Wrong: 1343
+Correct: 799425 Wrong: 1343
+Correct: 799425 Wrong: 1343
+Correct: 799426 Wrong: 1343
+Correct: 799426 Wrong: 1343
+Correct: 799427 Wrong: 1343
+Correct: 799427 Wrong: 1343
+Correct: 799427 Wrong: 1343
+Correct: 799427 Wrong: 1343
+Correct: 799429 Wrong: 1343
+Correct: 799429 Wrong: 1343
+Correct: 799430 Wrong: 1343
+Correct: 799431 Wrong: 1343
+Correct: 799433 Wrong: 1343
+Correct: 799433 Wrong: 1343
+Correct: 799433 Wrong: 1343
+Correct: 799433 Wrong: 1343
+Correct: 799435 Wrong: 1343
+Correct: 799435 Wrong: 1343
+Correct: 799436 Wrong: 1343
+Correct: 799436 Wrong: 1343
+Correct: 799436 Wrong: 1343
+Correct: 799436 Wrong: 1343
+Correct: 799437 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799439 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799440 Wrong: 1343
+Correct: 799441 Wrong: 1343
+Correct: 799441 Wrong: 1343
+Correct: 799441 Wrong: 1343
+Correct: 799444 Wrong: 1343
+Correct: 799444 Wrong: 1343
+Correct: 799444 Wrong: 1343
+Correct: 799453 Wrong: 1343
+Correct: 799453 Wrong: 1343
+Correct: 799455 Wrong: 1343
+Correct: 799456 Wrong: 1343
+Correct: 799456 Wrong: 1343
+Correct: 799458 Wrong: 1343
+Correct: 799459 Wrong: 1343
+Correct: 799459 Wrong: 1343
+Correct: 799461 Wrong: 1343
+Correct: 799461 Wrong: 1343
+Correct: 799461 Wrong: 1343
+Correct: 799467 Wrong: 1343
+Correct: 799467 Wrong: 1343
+Correct: 799469 Wrong: 1343
+Correct: 799469 Wrong: 1343
+Correct: 799472 Wrong: 1343
+Correct: 799472 Wrong: 1343
+Correct: 799472 Wrong: 1343
+Correct: 799472 Wrong: 1343
+Correct: 799473 Wrong: 1343
+Correct: 799473 Wrong: 1343
+Correct: 799473 Wrong: 1343
+Correct: 799474 Wrong: 1343
+Correct: 799474 Wrong: 1343
+Correct: 799475 Wrong: 1343
+Correct: 799475 Wrong: 1343
+Correct: 799475 Wrong: 1343
+Correct: 799476 Wrong: 1343
+Correct: 799476 Wrong: 1343
+Correct: 799476 Wrong: 1343
+Correct: 799476 Wrong: 1343
+Correct: 799479 Wrong: 1343
+Correct: 799479 Wrong: 1343
+Correct: 799480 Wrong: 1343
+Correct: 799480 Wrong: 1343
+Correct: 799480 Wrong: 1343
+Correct: 799480 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799482 Wrong: 1343
+Correct: 799483 Wrong: 1343
+Correct: 799484 Wrong: 1343
+Correct: 799484 Wrong: 1343
+Correct: 799484 Wrong: 1343
+Correct: 799485 Wrong: 1343
+Correct: 799485 Wrong: 1343
+Correct: 799486 Wrong: 1343
+Correct: 799486 Wrong: 1343
+Correct: 799486 Wrong: 1343
+Correct: 799488 Wrong: 1343
+Correct: 799488 Wrong: 1343
+Correct: 799489 Wrong: 1343
+Correct: 799489 Wrong: 1343
+Correct: 799489 Wrong: 1343
+Correct: 799489 Wrong: 1343
+Correct: 799489 Wrong: 1343
+Correct: 799490 Wrong: 1343
+Correct: 799490 Wrong: 1343
+Correct: 799490 Wrong: 1343
+Correct: 799493 Wrong: 1343
+Correct: 799495 Wrong: 1343
+Correct: 799495 Wrong: 1343
+Correct: 799495 Wrong: 1343
+Correct: 799496 Wrong: 1343
+Correct: 799496 Wrong: 1343
+Correct: 799497 Wrong: 1343
+Correct: 799497 Wrong: 1343
+Correct: 799497 Wrong: 1343
+Correct: 799498 Wrong: 1343
+Correct: 799498 Wrong: 1343
+Correct: 799500 Wrong: 1343
+Correct: 799501 Wrong: 1343
+Correct: 799501 Wrong: 1343
+Correct: 799501 Wrong: 1343
+Correct: 799502 Wrong: 1343
+Correct: 799502 Wrong: 1343
+Correct: 799503 Wrong: 1343
+Correct: 799505 Wrong: 1343
+Correct: 799505 Wrong: 1343
+Correct: 799505 Wrong: 1343
+Correct: 799505 Wrong: 1343
+Correct: 799507 Wrong: 1343
+Correct: 799509 Wrong: 1343
+Correct: 799510 Wrong: 1343
+Correct: 799511 Wrong: 1343
+Correct: 799512 Wrong: 1343
+Correct: 799515 Wrong: 1343
+Correct: 799516 Wrong: 1343
+Correct: 799524 Wrong: 1343
+Correct: 799526 Wrong: 1343
+Correct: 799526 Wrong: 1343
+Correct: 799528 Wrong: 1343
+Correct: 799528 Wrong: 1343
+Correct: 799528 Wrong: 1343
+Correct: 799528 Wrong: 1343
+Correct: 799530 Wrong: 1343
+Correct: 799530 Wrong: 1343
+Correct: 799532 Wrong: 1343
+Correct: 799532 Wrong: 1343
+Correct: 799532 Wrong: 1343
+Correct: 799533 Wrong: 1343
+Correct: 799533 Wrong: 1343
+Correct: 799533 Wrong: 1343
+Correct: 799533 Wrong: 1343
+Correct: 799535 Wrong: 1343
+Correct: 799535 Wrong: 1343
+Correct: 799535 Wrong: 1343
+Correct: 799536 Wrong: 1343
+Correct: 799537 Wrong: 1343
+Correct: 799538 Wrong: 1343
+Correct: 799538 Wrong: 1343
+Correct: 799538 Wrong: 1343
+Correct: 799538 Wrong: 1343
+Correct: 799538 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799540 Wrong: 1343
+Correct: 799541 Wrong: 1343
+Correct: 799545 Wrong: 1343
+Correct: 799546 Wrong: 1343
+Correct: 799550 Wrong: 1343
+Correct: 799551 Wrong: 1343
+Correct: 799551 Wrong: 1343
+Correct: 799552 Wrong: 1343
+Correct: 799552 Wrong: 1343
+Correct: 799553 Wrong: 1343
+Correct: 799553 Wrong: 1343
+Correct: 799553 Wrong: 1343
+Correct: 799553 Wrong: 1343
+Correct: 799554 Wrong: 1343
+Correct: 799557 Wrong: 1343
+Correct: 799557 Wrong: 1343
+Correct: 799558 Wrong: 1343
+Correct: 799560 Wrong: 1343
+Correct: 799560 Wrong: 1343
+Correct: 799560 Wrong: 1343
+Correct: 799560 Wrong: 1343
+Correct: 799561 Wrong: 1343
+Correct: 799561 Wrong: 1343
+Correct: 799562 Wrong: 1343
+Correct: 799569 Wrong: 1343
+Correct: 799569 Wrong: 1343
+Correct: 799570 Wrong: 1343
+Correct: 799570 Wrong: 1343
+Correct: 799571 Wrong: 1343
+Correct: 799572 Wrong: 1343
+Correct: 799572 Wrong: 1343
+Correct: 799573 Wrong: 1343
+Correct: 799573 Wrong: 1343
+Correct: 799585 Wrong: 1343
+Correct: 799586 Wrong: 1343
+Correct: 799589 Wrong: 1343
+Correct: 799589 Wrong: 1343
+Correct: 799589 Wrong: 1343
+Correct: 799590 Wrong: 1343
+Correct: 799591 Wrong: 1343
+Correct: 799591 Wrong: 1343
+Correct: 799591 Wrong: 1343
+Correct: 799592 Wrong: 1343
+Correct: 799592 Wrong: 1343
+Correct: 799592 Wrong: 1343
+Correct: 799592 Wrong: 1343
+Correct: 799594 Wrong: 1343
+Correct: 799594 Wrong: 1343
+Correct: 799595 Wrong: 1343
+Correct: 799596 Wrong: 1343
+Correct: 799597 Wrong: 1343
+Correct: 799598 Wrong: 1343
+Correct: 799598 Wrong: 1343
+Correct: 799599 Wrong: 1343
+Correct: 799599 Wrong: 1343
+Correct: 799599 Wrong: 1343
+Correct: 799601 Wrong: 1343
+Correct: 799601 Wrong: 1343
+Correct: 799601 Wrong: 1343
+Correct: 799602 Wrong: 1343
+Correct: 799605 Wrong: 1343
+Correct: 799605 Wrong: 1343
+Correct: 799606 Wrong: 1343
+Correct: 799607 Wrong: 1343
+Correct: 799608 Wrong: 1343
+Correct: 799608 Wrong: 1343
+Correct: 799608 Wrong: 1343
+Correct: 799608 Wrong: 1343
+Correct: 799608 Wrong: 1343
+Correct: 799609 Wrong: 1343
+Correct: 799609 Wrong: 1343
+Correct: 799609 Wrong: 1343
+Correct: 799609 Wrong: 1343
+Correct: 799609 Wrong: 1343
+Correct: 799615 Wrong: 1343
+Correct: 799615 Wrong: 1343
+Correct: 799615 Wrong: 1343
+Correct: 799617 Wrong: 1343
+Correct: 799617 Wrong: 1343
+Correct: 799617 Wrong: 1343
+Correct: 799618 Wrong: 1343
+Correct: 799620 Wrong: 1343
+Correct: 799620 Wrong: 1343
+Correct: 799621 Wrong: 1343
+Correct: 799621 Wrong: 1343
+Correct: 799624 Wrong: 1343
+Correct: 799624 Wrong: 1343
+Correct: 799625 Wrong: 1343
+Correct: 799625 Wrong: 1343
+Correct: 799626 Wrong: 1343
+Correct: 799630 Wrong: 1343
+Correct: 799631 Wrong: 1343
+Correct: 799631 Wrong: 1343
+Correct: 799631 Wrong: 1343
+Correct: 799631 Wrong: 1343
+Correct: 799631 Wrong: 1343
+Correct: 799632 Wrong: 1343
+Correct: 799633 Wrong: 1343
+Correct: 799636 Wrong: 1343
+Correct: 799637 Wrong: 1343
+Correct: 799637 Wrong: 1343
+Correct: 799637 Wrong: 1343
+Correct: 799639 Wrong: 1343
+Correct: 799641 Wrong: 1343
+Correct: 799641 Wrong: 1343
+Correct: 799642 Wrong: 1343
+Correct: 799643 Wrong: 1343
+Correct: 799647 Wrong: 1343
+Correct: 799647 Wrong: 1343
+Correct: 799649 Wrong: 1343
+Correct: 799652 Wrong: 1343
+Correct: 799652 Wrong: 1343
+Correct: 799653 Wrong: 1343
+Correct: 799653 Wrong: 1343
+Correct: 799653 Wrong: 1343
+Correct: 799654 Wrong: 1343
+Correct: 799654 Wrong: 1343
+Correct: 799654 Wrong: 1343
+Correct: 799654 Wrong: 1343
+Correct: 799655 Wrong: 1343
+Correct: 799656 Wrong: 1343
+Correct: 799656 Wrong: 1343
+Correct: 799657 Wrong: 1343
+[464005,464005] (4,2)
+[984398,984398] (2,1)

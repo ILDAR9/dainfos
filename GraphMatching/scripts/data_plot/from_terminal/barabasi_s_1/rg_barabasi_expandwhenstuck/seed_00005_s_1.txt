@@ -1,0 +1,49 @@
+Start read graph
+n = 1000000
+Graph created
+N = 1000000
+E = 2.99999e+06
+p = 5.99999e-06
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (OK)
+pt = 1
+ps = 1
+r = 2
+a_c = 13888.9: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 5
+Seeds are expanded
+Finish with inactive_pairs
+++++++
+Extended seed size: 194
+############## iteration = 1
+for all pairs [i,j] of A do
+seed size = 194
+Seeds are expanded
+Finish with inactive_pairs
+++++++
+Extended seed size: 0
+size inactive_pairs with value = 1: 0
+size: 0
+Finish with inactive_pairs
+expandWhenStuck: 
+----------RESULT----------
+ExpandWhenStuck results for N = 1000000; s = 1; nb_seed = 5
+	common nodes count G1 and G2 = 1000000
+	matched = 5
+	correct matches = 5	 wrong matches = 0
+	recall = 5e-06
+	precision = 5e-06
+	F1-score = 5e-06
+	precision (correct+wrong) = 1
+	F1-score (correct+wrong) = 9.99995e-06

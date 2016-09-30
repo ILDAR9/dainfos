@@ -1,0 +1,159 @@
+Graph created
+b_c(g, r) = 1.50367
+N = 1000000
+E = 2999991
+p = 0.00100679
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (FALSE)
+pt = 1
+ps = 0.9
+R-threshold = 2
+a_c = 0.751837: initial seed set.
++++
++++ 1000000
++++
++++ 1000000
+1000000 ++++ 1e+06
+0 noisy!
+++++++
+Extended seed size: 439
+0 noisy!
+-----
+erase!
+Correct: 475 Wrong: 25
+size map: 39585791
+size map: 37707186
+size: 39583477
+size: 37705775
+erase!
+Correct: 4960 Wrong: 40
+size map: 68750773
+size map: 61253238
+size: 68745471
+size: 61263266
+Correct: 9953 Wrong: 47
+Correct: 19947 Wrong: 53
+Correct: 29946 Wrong: 54
+Correct: 39945 Wrong: 55
+erase!
+Correct: 49944 Wrong: 56
+size map: 83059559
+size map: 57729058
+size: 83048752
+size: 57712865
+Correct: 59944 Wrong: 56
+Correct: 69935 Wrong: 65
+Correct: 79928 Wrong: 72
+Correct: 89927 Wrong: 73
+Correct: 99922 Wrong: 78
+Correct: 109916 Wrong: 84
+Correct: 119914 Wrong: 86
+Correct: 129908 Wrong: 92
+Correct: 139906 Wrong: 94
+Correct: 149903 Wrong: 97
+Correct: 159902 Wrong: 98
+Correct: 169901 Wrong: 99
+Correct: 179900 Wrong: 100
+Correct: 189899 Wrong: 101
+Correct: 199897 Wrong: 103
+Correct: 209896 Wrong: 104
+Correct: 219896 Wrong: 104
+Correct: 229896 Wrong: 104
+Correct: 239896 Wrong: 104
+Correct: 249896 Wrong: 104
+Correct: 259896 Wrong: 104
+Correct: 269894 Wrong: 106
+Correct: 279892 Wrong: 108
+Correct: 289890 Wrong: 110
+Correct: 299890 Wrong: 110
+Correct: 309889 Wrong: 111
+Correct: 319887 Wrong: 113
+Correct: 329887 Wrong: 113
+Correct: 339886 Wrong: 114
+Correct: 349885 Wrong: 115
+Correct: 359885 Wrong: 115
+Correct: 369885 Wrong: 115
+Correct: 379885 Wrong: 115
+Correct: 389885 Wrong: 115
+Correct: 399883 Wrong: 117
+Correct: 409882 Wrong: 118
+Correct: 419882 Wrong: 118
+Correct: 429882 Wrong: 118
+Correct: 439882 Wrong: 118
+Correct: 449881 Wrong: 119
+Correct: 459881 Wrong: 119
+Correct: 469880 Wrong: 120
+Correct: 479879 Wrong: 121
+Correct: 489879 Wrong: 121
+Correct: 499877 Wrong: 123
+Correct: 509876 Wrong: 124
+Correct: 519875 Wrong: 125
+Correct: 529873 Wrong: 127
+Correct: 539873 Wrong: 127
+Correct: 549871 Wrong: 129
+Correct: 559870 Wrong: 130
+Correct: 569870 Wrong: 130
+Correct: 579868 Wrong: 132
+Correct: 589867 Wrong: 133
+Correct: 599865 Wrong: 135
+Correct: 609864 Wrong: 136
+Correct: 619863 Wrong: 137
+Correct: 629863 Wrong: 137
+Correct: 639862 Wrong: 138
+Correct: 649861 Wrong: 139
+Correct: 659861 Wrong: 139
+Correct: 669860 Wrong: 140
+Correct: 679859 Wrong: 141
+Correct: 689859 Wrong: 141
+Correct: 699858 Wrong: 142
+Correct: 709857 Wrong: 143
+Correct: 719857 Wrong: 143
+Correct: 729856 Wrong: 144
+Correct: 739853 Wrong: 147
+Correct: 749851 Wrong: 149
+Correct: 759847 Wrong: 153
+Correct: 769846 Wrong: 154
+Correct: 779845 Wrong: 155
+Correct: 789845 Wrong: 155
+Correct: 799844 Wrong: 156
+Correct: 809842 Wrong: 158
+Correct: 819839 Wrong: 161
+Correct: 829835 Wrong: 165
+Correct: 839833 Wrong: 167
+Correct: 849832 Wrong: 168
+Correct: 859832 Wrong: 168
+Correct: 869831 Wrong: 169
+Correct: 879827 Wrong: 173
+Correct: 889823 Wrong: 177
+Correct: 899821 Wrong: 179
+Correct: 909819 Wrong: 181
+Correct: 919816 Wrong: 184
+Correct: 929813 Wrong: 187
+Correct: 939808 Wrong: 192
+++++++
+Extended seed size: 140107
+0 noisy!
+20000 noisy!
+40000 noisy!
+60000 noisy!
+80000 noisy!
+100000 noisy!
+120000 noisy!
+140000 noisy!
+-----
+Correct: 949808 Wrong: 192
+++++++
+Extended seed size: 305
+0 noisy!
+-----
+++++++
+Extended seed size: 0
+size: 71340417
+size: 0
+Finish
+ExpandWhenStuck: 
+	 correct matches = 955461	 wrong = 192
+	 matched = 955653
+	 precision = 0.999799
+	 F1-score = 0.977127

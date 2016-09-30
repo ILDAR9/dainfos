@@ -1,0 +1,37 @@
+Start read graph
+n = 1000000
+Graph created
+N = 1000000
+E = 2.99999e+06
+p = 5.99999e-06
+THEOREM 1:
+	n^(-1) << p <= n^(-5/6 - e) 	e = 0.001	[1/6 > e > 0]
+	1e-06 << p <= 9.86279e-06 (OK)
+pt = 1
+ps = 1
+r = 2
+a_c = 13888.9: initial seed set.
+------------------------------------
+Generate G1
+	generate subgraph
+	V_count = 1000000
+Generate G2
+	generate subgraph
+	V_count = 1000000
+same = 1000000;  N * pt * pt = 1e+06
+Noisy seeds are generated:
+	before = 20; with generated = 40
+Start percolation matching
+M <- A_0 and Z <- A_0
+while M \ Z != None do
+ExpandOnce: 
+----------RESULT----------
+ExpandWhenStuck results for N = 1000000; s = 1; nb_seed = 20
+	common nodes count G1 and G2 = 1000000
+	matched = 3
+	correct matches = 3	 wrong matches = 0
+	recall = 3e-06
+	precision = 3e-06
+	F1-score = 3e-06
+	precision (correct+wrong) = 1
+	F1-score (correct+wrong) = 5.99998e-06
